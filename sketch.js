@@ -49,17 +49,17 @@ function draw() {
   }
   
   //creating continous balloons
-  var select_balloon = Math.round(random(1,1));
+  var select_balloon = Math.round(random(1,4));
   
   if (World.frameCount % 100 == 0) {
     if (select_balloon == 1) {
       redBalloon();
     } else if (select_balloon == 2){
-      green_balloon();
+      greenBalloon();
     } else if (select_balloon == 3){
-      blue_balloon();
+      blueBalloon();
     } else if (select_baloon == 4){
-      pink_balloonImage();
+      pinkBalloon();
     }
   }
   
